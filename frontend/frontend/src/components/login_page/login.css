@@ -1,0 +1,99 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Clean and friendly font */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Beautiful gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #ffffff; /* Clean white background */
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for a gentle look */
+    text-align: center;
+    background: linear-gradient(135deg, #f8f9fa, #ffffff); /* Soft gradient background for form */
+}
+
+/* Title */
+.login-container h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Poppins', sans-serif; /* Friendly and modern font */
+}
+
+/* Input fields */
+.login-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7; /* Soft background for input fields */
+    transition: all 0.3s ease;
+}
+
+.login-container input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    background-color: #fff; /* White background on focus */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3); /* Soft green glow on focus */
+}
+
+/* Button */
+.login-container button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+/* Disabled button */
+.login-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth transition effect */
+input, button {
+    transition: all 0.3s ease; /* Smooth transitions for all interactive elements */
+}
+
+/* Styling for the form on mobile */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 20px;
+        width: 90%; /* Makes the form container responsive */
+    }
+}

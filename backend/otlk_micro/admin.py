@@ -1,5 +1,6 @@
 from django.contrib import admin
-from models import OutlookUserData
+from otlk_micro.models import OutlookUserData, Event
 # Register your models here.
 
 admin.site.register(OutlookUserData)
+admin.site.register(Event)

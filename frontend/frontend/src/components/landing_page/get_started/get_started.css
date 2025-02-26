@@ -1,0 +1,19 @@
+.get-started-btn {
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  padding: 1px 20px; /* Bigger padding for a more prominent button */
+  border: none;
+  border-radius: 50px; /* Bubbly, rounded corners */
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow for the "pop" effect */
+}
+
+/* Hover effect to create a bubbly, growing effect */
+.get-started-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.1); /* Grows the button */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* More intense shadow for hover */
+}
